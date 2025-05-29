@@ -6,7 +6,7 @@ const char* ssid = "SEU_SSID";
 const char* password = "SUA_SENHA";
 
 // Broker MQTT
-const char* mqtt_server = "broker.hivemq.com"; // Pode usar outro se quiser
+const char* mqtt_server = "broker.hivemq.com"; 
 
 WiFiClient espClient;
 PubSubClient client(espClient);
